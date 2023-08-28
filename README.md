@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src="readme.png" width="100%">
+  <img alt="projeto DevLinks" src="/public/assets/readme.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
