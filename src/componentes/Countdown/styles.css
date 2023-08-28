@@ -1,0 +1,40 @@
+.countdown-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.countdown-container {
+    width: 100vw;
+    max-width: 100rem;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: var(--orange-weak);
+    color: var(--white);
+    padding: 1rem 3rem 1rem 2rem;
+}
+
+.countdown-semana{
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-weight: 800;
+}
+
+.countdown-label {
+    display: flex;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+}
+
+.countdown-icon{
+    margin: 0 0.5rem;
+}
+
+.countdown-value {
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    font-weight: 800;
+}

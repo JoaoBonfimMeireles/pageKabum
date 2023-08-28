@@ -1,0 +1,35 @@
+.product-list-box {
+    display: flex;
+    align-items: center;
+    max-width: 100rem;
+    width: 100vw;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 0.875rem;
+    padding-top: 2rem;
+}
+
+@media (min-width: 600px) {
+    .product-list-box {
+        padding-left: 1rem;
+        padding-right: 0px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .product-list-box {
+        max-width: calc(80rem);
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (min-width: 1441px){
+    .product-list-box {
+        max-width: calc(98rem);
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+

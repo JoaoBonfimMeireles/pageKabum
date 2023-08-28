@@ -1,0 +1,82 @@
+.bgblue {
+    background: var(--blue);
+}
+
+.header {
+    max-width: 100rem;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 100vw;
+    justify-content: space-evenly;
+    padding: 29px 0px;
+    background: var(--blue);
+}
+
+.header-left {
+    display: flex;
+    width: 10%;
+    min-width: 13.75rem;
+    justify-content: space-between;
+    align-items: center;    
+    margin: 0px 0rem 0px 2rem;
+}
+
+/* Part center */
+
+.header img{
+    width: 289px;
+    height: 62px;
+
+    align-items: center;
+    margin-left: 65px;
+    cursor: pointer;
+}
+
+
+.input-seta {
+    position: absolute;
+}
+
+
+/* Part right*/
+
+.header-right {
+    width: 28%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    flex-wrap: wrap;
+    margin: 0px 2rem 0px 0rem;
+}
+
+.perfil {
+    display: flex;
+    margin-bottom: 0px;
+    padding: 1px;
+}
+
+.header-text-perfil {
+    display: block;
+    margin: 0;
+    margin-left: 0.37rem;
+    color: var(--text-grey-zero);   
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.header-text-perfil a {
+    text-decoration: none;
+    color: var(--text-grey-zero);
+    font-weight: 700;   
+}
+
+.icons {
+    display: flex;
+    padding-left: 6px;
+    width: 11rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1px;
+}
+

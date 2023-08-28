@@ -1,0 +1,30 @@
+.conteiner-search {
+    width: 40%;
+    display: flex;
+    position: relative;
+    padding-right: 35px;
+
+}
+
+.seta-left {
+    position: absolute;
+    right: 0px;
+    bottom: -0.4rem;
+}
+
+.search-input {
+    width: 100%;
+    height: 36px;
+    border: none;
+    padding: 0 1rem;
+
+
+    border-radius: 20px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 90px;
+
+    line-height: 1.31rem;
+    font-size: 0.875rem;
+}
+
+
