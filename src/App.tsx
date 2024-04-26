@@ -7,7 +7,6 @@ import Vitrini from './componentes/Vitrini';
 import Countdown from './componentes/Countdown';
 import Product from './componentes/Products';
 import ProductList from './componentes/ProductList/ProductList';
-
 function App() {
   return (
     <div className="App">
