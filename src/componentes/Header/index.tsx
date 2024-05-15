@@ -12,7 +12,6 @@ import IconHeart from '../Icons/IconHeart';
 import IconStore from '../Icons/IconStore';
 import HeaderBottom from '../HeaderBottom';
 
-
 export default function Header() {
   return (
     <div className='bgblue'>
